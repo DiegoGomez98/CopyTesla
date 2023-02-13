@@ -1,0 +1,17 @@
+/* .App:nth-child(1) {
+  opacity: 0; 
+  transform: translate(0, 10vh);
+  transition: all 1s;
+}
+
+.App:nth-child(2) {
+  opacity: 0;
+  transform: translate(10vh, 0vh);
+  transition: all 1s;
+}
+
+.App:nth-child(3) {
+  opacity: 0;
+  transform: translate(-10vh, 0vh);
+  transition: all 1s;
+} */
