@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/DiegoGomez98/CopyTesla.git/static/css/main.7e0eaada.css",
+    "main.js": "/DiegoGomez98/CopyTesla.git/static/js/main.f0fe2aae.js",
+    "static/media/model3.jpg": "/DiegoGomez98/CopyTesla.git/static/media/model3.372f67ca29f5537fdd31.jpg",
+    "static/media/solarPanels.jpg": "/DiegoGomez98/CopyTesla.git/static/media/solarPanels.ca96bddb758d659d3686.jpg",
+    "static/media/solarRoof.jpg": "/DiegoGomez98/CopyTesla.git/static/media/solarRoof.beca7b95705f936de68a.jpg",
+    "static/media/modelY.jpg": "/DiegoGomez98/CopyTesla.git/static/media/modelY.e9d7d00db3f8bcebc371.jpg",
+    "static/media/modelS.jpg": "/DiegoGomez98/CopyTesla.git/static/media/modelS.5fe4e11ea3352d04549e.jpg",
+    "static/media/modelX.jpg": "/DiegoGomez98/CopyTesla.git/static/media/modelX.d6836232a1dffd94615f.jpg",
+    "static/media/accessories.jpg": "/DiegoGomez98/CopyTesla.git/static/media/accessories.027ada94d343f5d81f6d.jpg",
+    "index.html": "/DiegoGomez98/CopyTesla.git/index.html",
+    "main.7e0eaada.css.map": "/DiegoGomez98/CopyTesla.git/static/css/main.7e0eaada.css.map",
+    "main.f0fe2aae.js.map": "/DiegoGomez98/CopyTesla.git/static/js/main.f0fe2aae.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e0eaada.css",
+    "static/js/main.f0fe2aae.js"
+  ]
+}
