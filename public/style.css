@@ -35,7 +35,7 @@ img {
 
 .header {
   width: 100%;
-  height: 4rem;
+  height: auto;
   display: grid;
   /* grid-template-columns: repeat(3, 1rem); */
   grid-template-columns: repeat(3, auto);
@@ -74,8 +74,11 @@ img {
   margin-right: 3.6rem;
 }
 
-.header-sectionRight_button i {
-  background-color: none;
+.header-sectionRight_button {
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  display: none;
 }
 
 .header-sectionRight ul {
@@ -87,9 +90,84 @@ img {
 .header-sectionCenter ul li, .header-sectionRight ul li {
   padding: 1.2rem;
 }
+.header-sectionCenter ul li:hover, .header-sectionRight ul li:hover {
+  background-color: #ededed;
+  transition: .5s;
+}
 
 .header-sectionCenter ul li {
-  margin: 0 .8rem 0 .8rem;
+  margin: 0 .8em 0 .8rem;
   width: minmax(20rem, auto);
 }
 
+@media(max-width: 768px) {
+  .fa-bars {
+    font-size: 2.4rem;
+  }
+.header {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  position: fixed;
+  border-radius: 1.2rem;
+}
+
+.header-sectionLeft {
+  margin-left: 0;
+  background-color: none;
+  margin: 1.2rem 1.2rem 0 1.2rem;
+}
+
+.header-sectionLeft {
+  display: flex;
+  margin-left: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-sectionCenter {
+  background-color: #A6ACAF;
+  position: relative;
+  left: 100%;
+  transition: .3s;
+}
+
+.header-sectionCenter ul {
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-sectionRight {
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 0;
+  align-items: center;
+  background-color: #A6ACAF;
+  position: relative;
+  left: 100%;
+  transition: .3s;
+}
+
+.header-sectionRight_button {
+  display: flex;
+}
+
+.header-sectionRight ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-sectionCenter ul li, .header-sectionRight ul li {
+  text-align: center;
+  margin: 0;
+}
+
+.header-sectionCenter ul li {
+  margin: 0;
+  text-align: center;
+}
+
+.header-section_visible {
+  left: 0;
+}
+}
